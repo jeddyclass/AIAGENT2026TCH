@@ -1,0 +1,18 @@
+1. 安裝ollama 
+https://ollama.com/
+
+2. pull gemma4:e2b, gemma4:e4b
+ollama pull gemma4:e4b
+ollama pull gemma4:e4b
+
+3. 安裝Anaconda 或是Miniconda
+https://www.anaconda.com/download
+
+4. 在conda prompt 之下建立虛擬環境(gptcode)
+conda create -n gptcode python=3.11 -y
+
+5. 在conda 虛擬環境(gptcode) 安裝open-webui
+https://github.com/open-webui/open-webui
+conda activate gptcode
+pip install open-webui
+open-webui serve
